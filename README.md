@@ -8,7 +8,7 @@ This repo holds code for [BiUNet: Towards More Effective U-Net with Bi-Level Rou
 ```angular2html
 conda create -n biunet python=3.7 -y
 conda activate biunet
-conda install pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.3.1 torchaudio==0.10.1 -c pytorch -y
+conda install pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.3.1 torchaudio==0.10.1 -c pytorch -c conda-forge -y
 pip install -r requirements.txt
 ```
 
