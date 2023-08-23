@@ -1,7 +1,7 @@
 # BiUNet
 
 
-This repo holds code for BiUNet: Towards More Effective U-Net with Bi-Level Routing Attention
+This repo holds code for BiUNet: Towards More Effective U-Net with Bi-Level Routing Attention.
 
 ## Installation
 
