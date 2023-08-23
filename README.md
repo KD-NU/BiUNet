@@ -92,18 +92,6 @@ In our code, we carefully set the random seed and set cudnn as 'deterministic' m
 * [Biformer](https://github.com/rayleizhu/BiFormer)
 
 
-## Citation
-
-```bash
-@article{li2023lvit,
-  title={Lvit: language meets vision transformer in medical image segmentation},
-  author={Li, Zihan and Li, Yunxiang and Li, Qingde and Wang, Puyang and Guo, Dazhou and Lu, Le and Jin, Dakai and Zhang, You and Hong, Qingqi},
-  journal={IEEE Transactions on Medical Imaging},
-  year={2023},
-  publisher={IEEE}
-}
-```
-
 Open an issue or mail me directly in case of any queries or suggestions.
 
 
