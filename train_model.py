@@ -98,10 +98,7 @@ def main_loop(batch_size=config.batch_size, model_type='', tensorboard=True):
         model = BiUNet(n_channels=3,n_classes=config.n_labels)
     else:
         raise TypeError('Please enter a valid name for the model type')
-    input = torch.randn(2, 3, 224, 224)
-    flops, params = profile(model, inputs=(input, ))
-    print('flops:{}'.format(flops))
-    print('params:{}'.format(params))
+    
     model = model.cuda()
     criterion = WeightedDiceBCE(dice_weight=0.5, BCE_weight=0.5)
     optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=weight_decay)  # Choose optimize
