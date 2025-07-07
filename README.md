@@ -88,7 +88,6 @@ In our code, we carefully set the random seed and set cudnn as 'deterministic' m
 ## Reference
 
 
-* [LViT](https://github.com/HUANGLIZI/LViT)
 * [Biformer](https://github.com/rayleizhu/BiFormer)
 
 
